@@ -4,7 +4,7 @@ IncludeCmd: yes
 
 
 %environment
-  R_VERSION=3.4.4
+  R_VERSION=3.4.3
   export R_VERSION
   R_CONFIG_DIR=/etc/R/
   export R_CONFIG_DIR
@@ -12,7 +12,7 @@ IncludeCmd: yes
 %labels
   Author Remy Dernat
   Version v0.0.1
-  R_Version 3.4.4
+  R_Version 3.4.3
   build_date 2020 Mar 4
 
 %apprun R
