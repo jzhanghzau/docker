@@ -30,7 +30,7 @@ IncludeCmd: yes
   add-apt-repository "deb http://cloud.r-project.org/bin/linux/ubuntu xenial/"
   apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
   apt-get update
-  apt-get install -y r-base r-base-dev libblas3 libblas-dev liblapack-dev liblapack3
+  apt-get install -y r-base r-base-dev
 
   # installing some packages
   echo install.packages\(\"dplyr\"\, repos\=\'https://cloud.r-project.org\'\) | R --slave
